@@ -1,0 +1,16 @@
+/** 配置后台管理员token */
+const HaloTokenConfig = Object.freeze({
+	
+	/** 基础请求域名：你的Halo博客基础域名 */
+	BASE_API: "http://10.7.7.4:18090/",
+	// BASE_API: "https://blog.xiaoxiaomo.cn",
+
+
+	/** 管理员token */
+	systemToken: `pat_eyJraWQiOiJHd0dPWkxrMk9KbXhnTnVIYXp2cENBNXd3bVIxaHZGZ0NTNmNyNTVZQm1jIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJodHRwOi8vMTkyLjE2OC4xLjQ6MTgwOTAvIiwic3ViIjoiYWRtaW4iLCJpYXQiOjE3NDg1NzA0MTUsImp0aSI6Ijc4NGEzZGM2LTNkZjctM2I4ZC00OWFhLTQ3YzhhODg3NTA2ZSIsInBhdF9uYW1lIjoicGF0LWFpbmo2OGMwIn0.eRNKARIcx_RuVPiEgtHHp-pcpy4XHdudrd9flJcFw2I4cVB1Ufsxv1frfAyZCzlknqKfIKVR6Ka2vA8R65SPmL3UTkUO0QLVNI1FPvSXLG9fZs-Rh680tciY9h7KOowdussGqzMOZCvZc3hAOMyGaORyg_JPVpQBmsmS4OIfyzAlxy0TLQpKc_pBmPzmDXbCWIDSXp0xhAsVLWgOnSjonx2yh9RMvX4HUri6-AYmC8PLZlSgiQDBhoN1wjsN_AFUgXzpeFup1kMHYOFlNU55yeRssWYJYwy_Yiw1fuDIIQjsS4K22duTXIW_gUcnQzHesTxZO8beJFZOwR_t6RX4evFLufWa9Pje9DRb3NaJc0MVriVuaPv_pwSoZXSttyUZyd47eAuM_80KpNfIRGvK_MyFlEy91UlvHHi03Eor-iWlhzaS1lKw6sq9RnGLivXIt3asQnmvWJB0TRykuZcWE7kJd5_oHcqOOwCFzr2os8GXxJlhOD6ixgd3LjStYsiT0TGLrLdMv_2cqRCnlYv1SP30_Ny1IiWdMjePSSbignkWxaHejstXqUfhkKm3orIf1n5pNb8TC-525gXkzk3dCVMRfDV0tKz1Y1mQ5mkoybeB5Y4kda0ub-_YxoTm7ZbPmkF1nz4TLEWybHPyMRoHA9UMcfN4frZMr2IkoJ2Bd4M`,
+	/** 匿名用户token */
+	anonymousToken: ``
+})
+
+
+export default HaloTokenConfig;
